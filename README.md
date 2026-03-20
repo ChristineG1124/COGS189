@@ -18,16 +18,19 @@ A simulated typing system is built to test how well model predictions translate 
 ---
 
 ## Repository Structure
+
+```
 Project/
 │
-├── COGS 189 Final Project.ipynb          # Main notebook (full pipeline + experiments)
-├── COGS 189 Final Report.pdf             # Final project report
+├── project.ipynb          # Main notebook (full pipeline + experiments)
+├── report.pdf             # Final project report
 ├── README.md              # This file
 │
 └── data/
-├── raw_control.gif        # Typing simulation (raw predictions)
-├── confidence_control.gif # Typing simulation (confidence threshold)
-└── smoothed_control.gif   # Typing simulation (smoothed control)
+    ├── raw_control.gif        # Typing simulation (raw predictions)
+    ├── confidence_control.gif # Typing simulation (confidence threshold)
+    └── smoothed_control.gif   # Typing simulation (smoothed control)
+```
 
 ---
 
